@@ -1,0 +1,1267 @@
+{
+  "intents": [
+    {
+      "tag": "inquiry_karate_classes",
+      "patterns": [
+        "I want to start karate, what should I know?",
+        "Tell me about the karate training here",
+        "I'm thinking of beginning karate lessons, any advice?",
+        "Can you give me some info on karate classes?",
+        "Details about the karate class, please?"
+      ],
+      "responses": [
+        "Our karate classes are great for beginners and advanced students alike. We focus on both technique and physical fitness.",
+        "Karate training at our club includes a blend of traditional forms and practical self-defense. It's both fun and challenging!"
+      ],
+      "emotion_responses": {
+        "sadness": ["I'm sorry to hear you're feeling down. Karate is not only about physical strength, but it's also a journey in mental resilience."],
+        "joy": ["Joyful spirits are a perfect match for the energy in our karate classes! You'll find the environment uplifting and motivating."]
+      }
+    },
+    {
+      "tag": "greetings",
+      "patterns": ["Hi", "Hello", "Hey", "Good morning", "Good afternoon", "Good evening"],
+      "responses": ["Hello! How can I assist you today?", "Hi there! What can I do for you?", "Hey! Looking for information on martial arts?"],
+      "emotion_responses": {
+        "love": ["Hello! It's heartwarming to see your enthusiasm. How can I assist you today?"],
+        "surprise": ["Hi there! Seems like you're full of surprises today. How can I help you?"]
+      }
+    },
+    {
+      "tag": "goodbye",
+      "patterns": ["Bye", "Goodbye", "See you later", "I'm leaving", "Catch you later"],
+      "responses": ["Goodbye! Feel free to return if you have more questions.", "Bye! Have a great day ahead.", "See you later! Don't hesitate to visit us again."],
+      "emotion_responses": {
+        "anger": ["Goodbye. Remember, martial arts can be a great way to channel your energy and find balance."],
+        "fear": ["Farewell, and remember, facing our fears is the first step in martial arts. See you soon!"]
+      }
+    },
+    {
+      "tag": "thanks",
+      "patterns": ["Thank you", "Thanks", "Appreciate it", "That's helpful", "Thanks for the help"],
+      "responses": ["You're welcome! If you have more questions, just ask.", "No problem at all, glad I could help!", "Always happy to assist! Let me know if there's anything else."],
+      "emotion_responses": {
+        "joy": ["You're welcome! Your joyful energy is contagious. Glad to help!"],
+        "surprise": ["Glad I could help! It's always a pleasant surprise to assist someone as grateful as you."]
+      }
+    },
+    {
+      "tag": "general_inquiry",
+      "patterns": [
+        "Can you help me with some information?",
+        "I need some details about your club",
+        "What can you tell me about Brave Heart?",
+        "I'm looking for information about your martial arts training",
+        "Could you provide some general info?"
+      ],
+      "responses": [
+        "Sure, I can help with that. What specific information are you looking for about Brave Heart Martial Arts Club?",
+        "I'd be happy to provide information about our club. What do you want to know more about?"
+      ],
+      "emotion_responses": {
+        "anger": ["I understand you might be frustrated. Let me help you with the information you need about our club."],
+        "fear": ["No need to feel overwhelmed. I'm here to provide all the information you need about our club."]
+      }
+    },
+    {
+      "tag": "class_duration",
+      "patterns": [
+        "How long does each class last?",
+        "What are the timings for your classes?",
+        "Can you tell me the duration of the training sessions?",
+        "How long are the martial arts classes?",
+        "Duration and schedule of the classes?"
+      ],
+      "responses": [
+        "Each of our martial arts classes is about an hour long. We have various timings throughout the week to fit your schedule.",
+        "Our classes typically run for 60 minutes. You can choose from different time slots as per your convenience."
+      ],
+      "emotion_responses": {
+        "love": ["It's wonderful to see your love for martial arts. Each class is an hour of energizing training."],
+        "surprise": ["Surprised to hear our classes are just an hour? They're packed with action and learning!"]
+      }
+    },
+    {
+      "tag": "equipment_query",
+      "patterns": [
+        "What equipment do I need for the classes?",
+        "Do I have to bring any gear for training?",
+        "Is there any specific equipment required?",
+        "What gear should I use for martial arts?",
+        "Do you provide the equipment or should I bring my own?"
+      ],
+      "responses": [
+        "We provide all the necessary equipment for training. However, you're welcome to bring your own gear if you prefer.",
+        "No need to bring any equipment, we have everything you'll need for your martial arts training."
+      ],
+      "emotion_responses": {
+        "joy": ["Your enthusiasm is great! Don't worry about equipment; we've got everything you need for an exciting class."],
+        "sadness": ["Feeling down? Martial arts could be a perfect lift. And don't worry, we provide all the necessary gear."]
+      }
+    },
+    {
+      "tag": "instructor_experience",
+      "patterns": [
+        "How experienced are your instructors?",
+        "Can you tell me about your trainers' background?",
+        "What qualifications do your instructors have?",
+        "Experience and skills of your martial arts teachers?",
+        "Who will be teaching the classes and what's their expertise?"
+      ],
+      "responses": [
+        "Our instructors are highly experienced and certified, with years of practice and teaching in various martial arts.",
+        "The trainers at our club are seasoned martial artists, each bringing a wealth of knowledge and skills."
+      ],
+      "emotion_responses": {
+        "fear": ["There's nothing to fear about our instructors. They're not only skilled, but also incredibly supportive and patient."],
+        "anger": ["If you're feeling agitated, martial arts could be a great outlet. Our experienced instructors can guide you through this journey."]
+      }
+    },
+    {
+      "tag": "safety_measures",
+      "patterns": [
+        "What safety measures do you have in place?",
+        "How do you ensure safety during training?",
+        "Are there any precautions taken for beginners?",
+        "What steps do you take to prevent injuries?",
+        "How safe are the martial arts classes?"
+      ],
+      "responses": [
+        "Safety is our top priority. We have comprehensive measures in place, including proper gear, trained staff, and safe training protocols.",
+        "We ensure a safe training environment with qualified instructors, safety gear, and clear guidelines for all participants."
+      ],
+      "emotion_responses": {
+        "surprise": ["Surprised at how seriously we take safety? It's our top priority to ensure a safe and enjoyable experience for everyone."],
+        "love": ["We love that you're concerned about safety. Rest assured, we take all necessary steps to provide a secure environment."]
+      }
+    },
+    {
+      "tag": "membership_fees",
+      "patterns": [
+        "How much does it cost to join?",
+        "What are the membership fees?",
+        "Can you tell me about the pricing for classes?",
+        "Are there different payment plans available?",
+        "What's the cost for martial arts training?"
+      ],
+      "responses": [
+        "Our membership fees are competitive and offer great value. We have several plans to suit different needs and budgets.",
+        "Pricing varies based on the program and frequency of classes. We have flexible payment options to accommodate everyone."
+      ],
+      "emotion_responses": {
+        "anger": ["We understand that pricing can be a concern. Rest assured, our fees are competitive and we offer flexible payment plans."],
+        "surprise": ["Surprised by our fees? We strive to make martial arts accessible to everyone with a variety of pricing options."]
+      }
+    },
+    {
+      "tag": "class_environment",
+      "patterns": [
+        "What's the atmosphere like in your classes?",
+        "Can you describe the class environment?",
+        "What kind of culture do you foster in training?",
+        "Is the training environment competitive or supportive?",
+        "How would you describe the vibe in your classes?"
+      ],
+      "responses": [
+        "We pride ourselves on a friendly and supportive atmosphere, ideal for learning and personal growth.",
+        "Our classes have a welcoming and inclusive environment. We encourage both competition and mutual support."
+      ],
+      "emotion_responses": {
+        "joy": ["You'll love the positive and energetic atmosphere in our classes! It's a great place to learn and grow."],
+        "fear": ["Feeling apprehensive? Don't worry, our supportive environment is perfect for beginners and seasoned practitioners alike."]
+      }
+    },
+    {
+      "tag": "nutrition_guidance",
+      "patterns": [
+        "Do you offer any advice on nutrition?",
+        "Can I get help with a diet plan for training?",
+        "What kind of nutritional support do you provide?",
+        "Is there a recommended diet for martial arts students?",
+        "How important is nutrition in martial arts training?"
+      ],
+      "responses": [
+        "Nutrition is key in martial arts. We offer guidance on proper diet plans to complement your training regimen.",
+        "Our instructors can provide you with nutritional advice that enhances your physical performance and overall health."
+      ],
+      "emotion_responses": {
+        "love": ["Love to see you taking a holistic approach to martial arts! Nutrition is a crucial part of your training regimen."],
+        "sadness": ["Feeling down? A balanced diet can improve both your physical health and mood, boosting your martial arts performance."]
+      }
+    },
+    {
+      "tag": "class_variety",
+      "patterns": [
+        "What types of martial arts classes do you offer?",
+        "Are there specialized classes for different martial arts?",
+        "Can I learn different styles of martial arts?",
+        "Do you offer classes in both traditional and modern martial arts?",
+        "What's the range of martial arts training available?"
+      ],
+      "responses": [
+        "We offer a wide range of martial arts classes, from traditional styles like Karate and Kung Fu to modern disciplines.",
+        "Our club specializes in various martial arts forms. You can choose to learn one style or explore multiple disciplines."
+      ],
+      "emotion_responses": {
+        "surprise": ["Surprised by our variety? We've got everything from traditional Karate to modern martial arts forms!"],
+        "fear": ["Feeling overwhelmed by the choices? Our instructors can help guide you to the martial art form that suits you best."]
+      }
+    },
+    {
+      "tag": "competition_training",
+      "patterns": [
+        "Do you prepare students for competitions?",
+        "Can I get competition-level training?",
+        "What's the approach for training students for tournaments?",
+        "How can I participate in martial arts competitions through your club?",
+        "Is there specialized training for competitive martial arts?"
+      ],
+      "responses": [
+        "Yes, we offer specialized training for students aiming to compete. Our coaches can prepare you for various levels of tournaments.",
+        "Our competition training program is rigorous and tailored to prepare students for martial arts tournaments."
+      ],
+      "emotion_responses": {
+        "joy": ["Excited about competing? Our training will harness that energy to prepare you for tournaments."],
+        "sadness": ["Even if you're feeling low, our competition training can be a great way to regain confidence and focus."]
+      }
+    },
+    {
+      "tag": "class_schedule",
+      "patterns": [
+        "What classes do you have?",
+        "What is the schedule for classes?",
+        "Do you have any classes during the weekend?",
+        "Can you tell me the class timings?"
+      ],
+      "responses": [
+        "We have a variety of classes throughout the week, including weekends. Check our website for the full schedule.",
+        "Our classes are scheduled to accommodate everyone, with options available on weekdays and weekends."
+      ],
+      "emotion_responses": {
+        "joy": ["Glad to see your enthusiasm! We've got classes all week, even on weekends to suit your schedule."],
+        "anxiety": ["Worried about fitting classes into your busy schedule? We have flexible options, including weekend classes."]
+      }
+    },
+    {
+      "tag": "club_information",
+      "patterns": [
+        "What is the name of the club?",
+        "Can you give me some information about the club?",
+        "Tell me more about the martial arts club",
+        "I'd like to know about your club"
+      ],
+      "responses": [
+        "Our club, Brave Heart Martial Arts, is dedicated to providing the best martial arts training experience.",
+        "Brave Heart Martial Arts is the name of our club, where we focus on skill, discipline, and personal growth."
+      ],
+      "emotion_responses": {
+        "curiosity": ["You sound curious! Brave Heart Martial Arts is a place where we nurture martial arts skills and personal development."],
+        "enthusiasm": ["It's great to see your enthusiasm! Brave Heart Martial Arts is more than just a club; it's a community."]
+      }
+    },
+    {
+      "tag": "speak_with_agent",
+      "patterns": [
+        "Can I speak with an agent?",
+        "I'd like to talk to an advisor",
+        "Is it possible to discuss with a representative?",
+        "Can someone assist me with more information?"
+      ],
+      "responses": [
+        "Absolutely, I can connect you with one of our agents. Please hold for a moment.",
+        "Sure, let me transfer you to an advisor who can assist you further."
+      ],
+      "emotion_responses": {
+        "confusion": ["I see you might need detailed assistance. Let me connect you with an agent for more personalized help."],
+        "interest": ["It sounds like you're interested in more details. I'll connect you with an advisor for in-depth information."]
+      }
+    },
+    {
+      "tag": "location_info",
+      "patterns": [
+        "Where are you located?",
+        "What is the location?",
+        "Can you tell me where the club is situated?",
+        "I need to find the location of your martial arts school",
+        "Where can I find the club?"
+      ],
+      "responses": [
+        "We're located at 123 High Street, Birmingham. Easy to find and accessible by public transport.",
+        "You can find us at 123 High Street, Birmingham. It's a convenient spot with ample parking."
+      ],
+      "emotion_responses": {
+        "curiosity": ["You seem curious about our location. We're at 123 High Street, right in the center of town!"],
+        "anxiety": ["Finding us is easy, don't worry! We're located at 123 High Street, accessible by most public transport routes."]
+      }
+    },
+    {
+      "tag": "benefits",
+      "patterns": [
+        "What are the benefits of martial arts?",
+        "Why should I learn martial arts?",
+        "Tell me the advantages of joining martial arts classes",
+        "How can martial arts help me?"
+      ],
+      "responses": [
+        "Martial arts can improve physical fitness, mental strength, self-discipline, and self-defense skills.",
+        "Joining martial arts classes can boost your confidence, focus, and overall well-being."
+      ],
+      "emotion_responses": {
+        "joy": ["Martial arts brings joy by improving fitness and mental strength. It's a great way to stay active and healthy."],
+        "curiosity": ["Curious about martial arts? It can boost your confidence, focus, and overall well-being."]
+      }
+    },
+    {
+      "tag": "instructor_info",
+      "patterns": [
+        "Can you tell me about your instructors?",
+        "Who are the trainers at your club?",
+        "What's the background of your instructors?",
+        "Tell me about the experience of your trainers"
+      ],
+      "responses": [
+        "Our instructors are highly skilled with years of experience in various martial arts disciplines.",
+        "We have certified trainers who are passionate about teaching and helping students achieve their goals."
+      ],
+      "emotion_responses": {
+        "fear": ["Don't worry, our instructors are supportive and experienced. They'll guide you through every step."],
+        "love": ["Our instructors are not only skilled but also passionate about teaching and helping you achieve your goals."]
+      }
+    },
+    {
+      "tag": "judo_classes",
+      "patterns": [
+        "Do you offer judo classes?",
+        "Can I learn judo at your club?",
+        "Tell me about your judo training",
+        "What's included in your judo program?"
+      ],
+      "responses": [
+        "Yes, we offer judo classes for all skill levels. Our program includes throws, holds, and ground techniques.",
+        "Our judo training is comprehensive, focusing on both physical conditioning and technical skills."
+      ],
+      "emotion_responses": {
+        "joy": ["Excited about judo? Our classes are perfect for learning and improving your judo skills."],
+        "curiosity": ["Curious about judo? We offer comprehensive training focusing on both physical conditioning and technical skills."]
+      }
+    },
+    {
+      "tag": "taekwondo_classes",
+      "patterns": [
+        "Do you offer taekwondo classes?",
+        "Can I learn taekwondo at your club?",
+        "Tell me about your taekwondo training",
+        "What's included in your taekwondo program?"
+      ],
+      "responses": [
+        "Yes, we offer taekwondo classes that cover everything from basic techniques to advanced sparring.",
+        "Our taekwondo program focuses on kicks, punches, and forms to improve your skills and fitness."
+      ],
+      "emotion_responses": {
+        "joy": ["Taekwondo classes are exciting and full of energy! You'll love the high kicks and dynamic movements."],
+        "curiosity": ["Curious about taekwondo? Our classes cover everything from basic techniques to advanced sparring."]
+      }
+    },
+    {
+      "tag": "self_defense",
+      "patterns": [
+        "Do you offer self-defense classes?",
+        "Can I learn self-defense at your club?",
+        "Tell me about your self-defense training",
+        "What's included in your self-defense program?"
+      ],
+      "responses": [
+        "Yes, we offer self-defense classes that teach practical techniques for real-life situations.",
+        "Our self-defense program focuses on awareness, prevention, and effective response to threats."
+      ],
+      "emotion_responses": {
+        "fear": ["Feeling worried about safety? Our self-defense classes teach practical techniques for real-life situations."],
+        "confidence": ["Our self-defense training will boost your confidence and ability to handle various situations."]
+      }
+    },
+    {
+      "tag": "personal_training",
+      "patterns": [
+        "Do you offer personal training?",
+        "Can I get one-on-one training at your club?",
+        "Tell me about your personal training program",
+        "What's included in your personal training sessions?"
+      ],
+      "responses": [
+        "Yes, we offer personal training tailored to your individual goals and needs.",
+        "Our personal training sessions provide focused attention and customized workouts to help you achieve your goals."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in personal training? Our sessions are tailored to your individual goals and needs."],
+        "enthusiasm": ["Our personal training sessions provide focused attention and customized workouts to help you achieve your goals."]
+      }
+    },
+    {
+      "tag": "group_classes",
+      "patterns": [
+        "Do you offer group classes?",
+        "Can I join group training at your club?",
+        "Tell me about your group classes",
+        "What's included in your group training program?"
+      ],
+      "responses": [
+        "Yes, we offer group classes that are fun, motivating, and designed to help you improve your skills.",
+        "Our group training program provides a supportive environment where you can learn and grow with others."
+      ],
+      "emotion_responses": {
+        "joy": ["Group classes are fun and motivating! You'll enjoy training with others and improving your skills."],
+        "curiosity": ["Curious about group training? Our classes provide a supportive environment where you can learn and grow with others."]
+      }
+    },
+    {
+      "tag": "kids_classes",
+      "patterns": [
+        "Do you offer classes for kids?",
+        "Can my child join your martial arts classes?",
+        "Tell me about your kids' training program",
+        "What's included in your classes for children?"
+      ],
+      "responses": [
+        "Yes, we offer martial arts classes for kids that are fun, engaging, and educational.",
+        "Our kids' program focuses on building confidence, discipline, and physical fitness."
+      ],
+      "emotion_responses": {
+        "love": ["Our kids' classes are filled with fun and learning. Your child will build confidence, discipline, and physical fitness."],
+        "enthusiasm": ["Our kids' program is engaging and educational. It's a great way for children to learn and grow."]
+      }
+    },
+    {
+      "tag": "teen_classes",
+      "patterns": [
+        "Do you offer classes for teenagers?",
+        "Can my teen join your martial arts classes?",
+        "Tell me about your teen training program",
+        "What's included in your classes for teenagers?"
+      ],
+      "responses": [
+        "Yes, we offer martial arts classes for teenagers that focus on skill development and physical fitness.",
+        "Our teen program provides a challenging and supportive environment for personal growth and learning."
+      ],
+      "emotion_responses": {
+        "interest": ["Our teen classes are perfect for skill development and physical fitness. It's a great way to learn and grow."],
+        "curiosity": ["Curious about our teen program? It provides a challenging and supportive environment for personal growth and learning."]
+      }
+    },
+    {
+      "tag": "adult_classes",
+      "patterns": [
+        "Do you offer classes for adults?",
+        "Can I join your martial arts classes?",
+        "Tell me about your adult training program",
+        "What's included in your classes for adults?"
+      ],
+      "responses": [
+        "Yes, we offer martial arts classes for adults that cater to all skill levels.",
+        "Our adult program focuses on improving fitness, learning new skills, and achieving personal goals."
+      ],
+      "emotion_responses": {
+        "interest": ["Our adult classes are designed for all skill levels. You'll improve fitness, learn new skills, and achieve personal goals."],
+        "enthusiasm": ["Excited about adult training? Our program focuses on fitness, skill development, and personal achievement."]
+      }
+    },
+    {
+      "tag": "senior_classes",
+      "patterns": [
+        "Do you offer classes for seniors?",
+        "Can older adults join your martial arts classes?",
+        "Tell me about your senior training program",
+        "What's included in your classes for seniors?"
+      ],
+      "responses": [
+        "Yes, we offer martial arts classes for seniors that focus on gentle exercises and flexibility.",
+        "Our senior program is designed to improve mobility, strength, and overall well-being."
+      ],
+      "emotion_responses": {
+        "curiosity": ["Curious about senior classes? Our program focuses on gentle exercises to improve mobility and strength."],
+        "love": ["Our senior classes are perfect for improving flexibility and overall well-being. It's never too late to start!"]
+      }
+    },
+    {
+      "tag": "women_only_classes",
+      "patterns": [
+        "Do you offer women-only classes?",
+        "Can I join your women-only martial arts classes?",
+        "Tell me about your women-only training program",
+        "What's included in your classes for women?"
+      ],
+      "responses": [
+        "Yes, we offer women-only martial arts classes that provide a comfortable and supportive environment.",
+        "Our women-only program focuses on self-defense, fitness, and empowerment."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in women-only classes? Our program focuses on self-defense, fitness, and empowerment."],
+        "love": ["Our women-only classes provide a comfortable and supportive environment. It's perfect for learning and growth."]
+      }
+    },
+    {
+      "tag": "beginner_classes",
+      "patterns": [
+        "Do you offer beginner classes?",
+        "Can I join your beginner martial arts classes?",
+        "Tell me about your beginner training program",
+        "What's included in your classes for beginners?"
+      ],
+      "responses": [
+        "Yes, we offer beginner martial arts classes that provide a strong foundation and basic skills.",
+        "Our beginner program is designed to help you learn the fundamentals and build confidence."
+      ],
+      "emotion_responses": {
+        "curiosity": ["Curious about beginner classes? Our program helps you learn the fundamentals and build confidence."],
+        "enthusiasm": ["Our beginner classes are perfect for starting your martial arts journey. You'll gain a strong foundation and basic skills."]
+      }
+    },
+    {
+      "tag": "intermediate_classes",
+      "patterns": [
+        "Do you offer intermediate classes?",
+        "Can I join your intermediate martial arts classes?",
+        "Tell me about your intermediate training program",
+        "What's included in your classes for intermediate students?"
+      ],
+      "responses": [
+        "Yes, we offer intermediate martial arts classes that build on basic skills and introduce advanced techniques.",
+        "Our intermediate program is designed to help you improve your skills and take your training to the next level."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in intermediate classes? Our program helps you improve your skills and take your training to the next level."],
+        "enthusiasm": ["Our intermediate classes are perfect for building on basic skills and learning advanced techniques."]
+      }
+    },
+    {
+      "tag": "advanced_classes",
+      "patterns": [
+        "Do you offer advanced classes?",
+        "Can I join your advanced martial arts classes?",
+        "Tell me about your advanced training program",
+        "What's included in your classes for advanced students?"
+      ],
+      "responses": [
+        "Yes, we offer advanced martial arts classes that focus on high-level techniques and competitive training.",
+        "Our advanced program is designed to challenge you and help you achieve mastery in martial arts."
+      ],
+      "emotion_responses": {
+        "interest": ["Our advanced classes are designed for high-level training and competitive skills. It's perfect for serious practitioners."],
+        "enthusiasm": ["Excited about advanced training? Our program focuses on high-level techniques and competitive preparation."]
+      }
+    },
+    {
+      "tag": "conditioning_classes",
+      "patterns": [
+        "Do you offer conditioning classes?",
+        "Can I join your conditioning training?",
+        "Tell me about your conditioning program",
+        "What's included in your conditioning sessions?"
+      ],
+      "responses": [
+        "Yes, we offer conditioning classes that focus on improving strength, endurance, and overall fitness.",
+        "Our conditioning program includes exercises that enhance physical performance and support martial arts training."
+      ],
+      "emotion_responses": {
+        "interest": ["Our conditioning classes are designed to improve strength, endurance, and overall fitness. It's great for any martial artist."],
+        "enthusiasm": ["Excited about conditioning training? Our sessions enhance physical performance and support your martial arts journey."]
+      }
+    },
+    {
+      "tag": "flexibility_training",
+      "patterns": [
+        "Do you offer flexibility training?",
+        "Can I improve my flexibility with your classes?",
+        "Tell me about your flexibility program",
+        "What's included in your flexibility sessions?"
+      ],
+      "responses": [
+        "Yes, we offer flexibility training that includes stretching exercises to improve your range of motion.",
+        "Our flexibility program is designed to enhance your agility and reduce the risk of injuries."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in flexibility training? Our program includes stretching exercises to improve your range of motion."],
+        "enthusiasm": ["Our flexibility training enhances agility and reduces the risk of injuries. It's perfect for any martial artist."]
+      }
+    },
+    {
+      "tag": "mental_focus",
+      "patterns": [
+        "Do you offer training for mental focus?",
+        "Can I improve my mental focus with your classes?",
+        "Tell me about your mental focus program",
+        "What's included in your mental focus training?"
+      ],
+      "responses": [
+        "Yes, we offer training that helps improve mental focus and concentration.",
+        "Our mental focus program includes techniques to enhance mindfulness and mental clarity."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in mental focus training? Our program enhances mindfulness and mental clarity."],
+        "enthusiasm": ["Our mental focus training improves concentration and mental clarity. It's great for martial arts and daily life."]
+      }
+    },
+    {
+      "tag": "balance_training",
+      "patterns": [
+        "Do you offer balance training?",
+        "Can I improve my balance with your classes?",
+        "Tell me about your balance program",
+        "What's included in your balance training?"
+      ],
+      "responses": [
+        "Yes, we offer balance training that focuses on stability and coordination.",
+        "Our balance program includes exercises to improve your core strength and overall stability."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in balance training? Our program improves stability and coordination with targeted exercises."],
+        "enthusiasm": ["Our balance training enhances core strength and overall stability. It's essential for martial arts performance."]
+      }
+    },
+    {
+      "tag": "breathing_exercises",
+      "patterns": [
+        "Do you offer breathing exercises?",
+        "Can I learn breathing techniques with your classes?",
+        "Tell me about your breathing exercises",
+        "What's included in your breathing training?"
+      ],
+      "responses": [
+        "Yes, we offer breathing exercises that help improve lung capacity and relaxation.",
+        "Our breathing program includes techniques to enhance your respiratory function and reduce stress."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in breathing exercises? Our program enhances lung capacity and relaxation."],
+        "enthusiasm": ["Our breathing exercises improve respiratory function and reduce stress. It's great for both training and relaxation."]
+      }
+    },
+    {
+      "tag": "sparring_sessions",
+      "patterns": [
+        "Do you offer sparring sessions?",
+        "Can I participate in sparring at your club?",
+        "Tell me about your sparring sessions",
+        "What's included in your sparring training?"
+      ],
+      "responses": [
+        "Yes, we offer sparring sessions that provide practical experience and improve fighting skills.",
+        "Our sparring program includes supervised sessions to ensure safety and effective learning."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in sparring? Our sessions provide practical experience and improve your fighting skills."],
+        "enthusiasm": ["Our sparring sessions offer supervised training to ensure safety and effective learning. It's a great way to practice."]
+      }
+    },
+    {
+      "tag": "meditation_sessions",
+      "patterns": [
+        "Do you offer meditation sessions?",
+        "Can I join your meditation classes?",
+        "Tell me about your meditation program",
+        "What's included in your meditation training?"
+      ],
+      "responses": [
+        "Yes, we offer meditation sessions that help improve mental clarity and relaxation.",
+        "Our meditation program includes techniques to enhance mindfulness and reduce stress."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in meditation? Our sessions improve mental clarity and relaxation."],
+        "enthusiasm": ["Our meditation sessions enhance mindfulness and reduce stress. It's great for mental well-being and focus."]
+      }
+    },
+    {
+      "tag": "diet_nutrition",
+      "patterns": [
+        "Do you offer diet and nutrition advice?",
+        "Can I get help with my diet for training?",
+        "Tell me about your nutrition program",
+        "What's included in your diet and nutrition advice?"
+      ],
+      "responses": [
+        "Yes, we offer diet and nutrition advice to complement your training and improve your overall health.",
+        "Our nutrition program includes personalized plans and guidance to help you achieve your fitness goals."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in diet and nutrition? Our program provides personalized plans to complement your training."],
+        "enthusiasm": ["Our nutrition advice helps improve overall health and supports your fitness goals. It's essential for optimal performance."]
+      }
+    },
+    {
+      "tag": "recovery_sessions",
+      "patterns": [
+        "Do you offer recovery sessions?",
+        "Can I join your recovery classes?",
+        "Tell me about your recovery program",
+        "What's included in your recovery sessions?"
+      ],
+      "responses": [
+        "Yes, we offer recovery sessions that include stretching, massage, and relaxation techniques.",
+        "Our recovery program is designed to help you recuperate from intense training and prevent injuries."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in recovery sessions? Our program helps you recuperate and prevent injuries."],
+        "enthusiasm": ["Our recovery sessions include stretching, massage, and relaxation techniques. It's perfect for post-training care."]
+      }
+    },
+    {
+      "tag": "mindset_coaching",
+      "patterns": [
+        "Do you offer mindset coaching?",
+        "Can I improve my mindset with your classes?",
+        "Tell me about your mindset coaching",
+        "What's included in your mindset training?"
+      ],
+      "responses": [
+        "Yes, we offer mindset coaching that focuses on developing a positive and resilient mental attitude.",
+        "Our mindset program includes techniques to enhance mental strength and emotional balance."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in mindset coaching? Our program develops a positive and resilient mental attitude."],
+        "enthusiasm": ["Our mindset coaching enhances mental strength and emotional balance. It's essential for both training and life."]
+      }
+    },
+    {
+      "tag": "body_composition_analysis",
+      "patterns": [
+        "Do you offer body composition analysis?",
+        "Can I get a body composition analysis at your club?",
+        "Tell me about your body composition program",
+        "What's included in your body composition analysis?"
+      ],
+      "responses": [
+        "Yes, we offer body composition analysis to help you understand your physical health and fitness levels.",
+        "Our analysis program includes measurements of body fat, muscle mass, and overall health indicators."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in body composition analysis? Our program provides detailed measurements of your physical health."],
+        "enthusiasm": ["Our body composition analysis helps you understand your fitness levels and improve your training plan."]
+      }
+    },
+    {
+      "tag": "sleep_management",
+      "patterns": [
+        "Do you offer sleep management advice?",
+        "Can I get help with my sleep for better training?",
+        "Tell me about your sleep management program",
+        "What's included in your sleep advice?"
+      ],
+      "responses": [
+        "Yes, we offer sleep management advice to improve your recovery and overall health.",
+        "Our sleep program includes tips and techniques to enhance your sleep quality and duration."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in sleep management? Our program improves recovery and overall health with better sleep."],
+        "enthusiasm": ["Our sleep management advice enhances sleep quality and duration. It's essential for recovery and performance."]
+      }
+    },
+    {
+      "tag": "motivational_sessions",
+      "patterns": [
+        "Do you offer motivational sessions?",
+        "Can I join your motivational training?",
+        "Tell me about your motivational program",
+        "What's included in your motivational sessions?"
+      ],
+      "responses": [
+        "Yes, we offer motivational sessions to inspire and encourage you in your martial arts journey.",
+        "Our motivational program includes talks, workshops, and activities to boost your enthusiasm and dedication."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in motivational sessions? Our program inspires and encourages you in your martial arts journey."],
+        "enthusiasm": ["Our motivational sessions boost your enthusiasm and dedication. It's great for staying inspired and focused."]
+      }
+    },
+    {
+      "tag": "goal_setting",
+      "patterns": [
+        "Do you offer goal-setting sessions?",
+        "Can I set my training goals with your help?",
+        "Tell me about your goal-setting program",
+        "What's included in your goal-setting sessions?"
+      ],
+      "responses": [
+        "Yes, we offer goal-setting sessions to help you define and achieve your training objectives.",
+        "Our goal-setting program includes personalized plans and support to keep you on track."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in goal-setting? Our program helps you define and achieve your training objectives."],
+        "enthusiasm": ["Our goal-setting sessions provide personalized plans and support. It's perfect for staying focused and achieving success."]
+      }
+    },
+    {
+      "tag": "injury_prevention",
+      "patterns": [
+        "Do you offer injury prevention advice?",
+        "Can I prevent injuries with your help?",
+        "Tell me about your injury prevention program",
+        "What's included in your injury prevention advice?"
+      ],
+      "responses": [
+        "Yes, we offer injury prevention advice to help you stay safe and healthy during training.",
+        "Our injury prevention program includes tips and techniques to reduce the risk of injuries."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in injury prevention? Our program helps you stay safe and healthy during training."],
+        "enthusiasm": ["Our injury prevention advice reduces the risk of injuries and keeps you training safely."]
+      }
+    },
+    {
+      "tag": "progress_tracking",
+      "patterns": [
+        "Do you offer progress tracking?",
+        "Can I track my progress with your help?",
+        "Tell me about your progress tracking program",
+        "What's included in your progress tracking?"
+      ],
+      "responses": [
+        "Yes, we offer progress tracking to help you monitor your improvements and stay motivated.",
+        "Our progress tracking program includes regular assessments and feedback to keep you on track."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in progress tracking? Our program helps you monitor your improvements and stay motivated."],
+        "enthusiasm": ["Our progress tracking keeps you on track with regular assessments and feedback. It's perfect for staying motivated."]
+      }
+    },
+    {
+      "tag": "hydration_tips",
+      "patterns": [
+        "Do you offer hydration tips?",
+        "Can I get hydration advice for training?",
+        "Tell me about your hydration program",
+        "What's included in your hydration advice?"
+      ],
+      "responses": [
+        "Yes, we offer hydration tips to help you stay properly hydrated during training.",
+        "Our hydration program includes advice on fluid intake and hydration strategies."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in hydration tips? Our program helps you stay properly hydrated during training."],
+        "enthusiasm": ["Our hydration advice includes fluid intake and hydration strategies. It's essential for optimal performance."]
+      }
+    },
+    {
+      "tag": "stress_management",
+      "patterns": [
+        "Do you offer stress management advice?",
+        "Can I manage my stress with your help?",
+        "Tell me about your stress management program",
+        "What's included in your stress management advice?"
+      ],
+      "responses": [
+        "Yes, we offer stress management advice to help you maintain mental and emotional balance.",
+        "Our stress management program includes techniques to reduce stress and enhance well-being."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in stress management? Our program helps you maintain mental and emotional balance."],
+        "enthusiasm": ["Our stress management advice includes techniques to reduce stress and enhance well-being. It's great for overall health."]
+      }
+    },
+    {
+      "tag": "time_management",
+      "patterns": [
+        "Do you offer time management tips?",
+        "Can I manage my time better with your help?",
+        "Tell me about your time management program",
+        "What's included in your time management advice?"
+      ],
+      "responses": [
+        "Yes, we offer time management tips to help you balance training with other responsibilities.",
+        "Our time management program includes strategies to optimize your schedule and improve productivity."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in time management? Our program helps you balance training with other responsibilities."],
+        "enthusiasm": ["Our time management tips optimize your schedule and improve productivity. It's perfect for busy martial artists."]
+      }
+    },
+    {
+      "tag": "family_classes",
+      "patterns": [
+        "Do you offer family classes?",
+        "Can we join martial arts classes as a family?",
+        "Tell me about your family training program",
+        "What's included in your family classes?"
+      ],
+      "responses": [
+        "Yes, we offer family classes that provide a fun and engaging way to train together.",
+        "Our family program includes activities and exercises suitable for all ages."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in family classes? Our program provides a fun and engaging way to train together."],
+        "enthusiasm": ["Our family classes include activities and exercises suitable for all ages. It's perfect for bonding and fitness."]
+      }
+    },
+    {
+      "tag": "community_events",
+      "patterns": [
+        "Do you host community events?",
+        "Can I join your community events?",
+        "Tell me about your community events",
+        "What's included in your community activities?"
+      ],
+      "responses": [
+        "Yes, we host community events that include demonstrations, workshops, and social gatherings.",
+        "Our community events are designed to promote martial arts and foster a sense of community."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in community events? Our activities promote martial arts and foster a sense of community."],
+        "enthusiasm": ["Our community events include demonstrations, workshops, and social gatherings. It's great for connecting with others."]
+      }
+    },
+    {
+      "tag": "corporate_wellness",
+      "patterns": [
+        "Do you offer corporate wellness programs?",
+        "Can my company join your corporate wellness training?",
+        "Tell me about your corporate wellness program",
+        "What's included in your corporate wellness sessions?"
+      ],
+      "responses": [
+        "Yes, we offer corporate wellness programs that focus on improving employee health and well-being.",
+        "Our corporate wellness program includes fitness classes, stress management, and team-building activities."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in corporate wellness? Our program improves employee health and well-being."],
+        "enthusiasm": ["Our corporate wellness sessions include fitness classes, stress management, and team-building activities. It's perfect for companies."]
+      }
+    },
+    {
+      "tag": "sports_teams_training",
+      "patterns": [
+        "Do you offer training for sports teams?",
+        "Can my sports team join your training program?",
+        "Tell me about your sports team training",
+        "What's included in your sports team sessions?"
+      ],
+      "responses": [
+        "Yes, we offer training programs tailored for sports teams to improve performance and teamwork.",
+        "Our sports team training includes conditioning, skills development, and strategy sessions."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in sports team training? Our program improves performance and teamwork."],
+        "enthusiasm": ["Our sports team sessions include conditioning, skills development, and strategy. It's perfect for any sports team."]
+      }
+    },
+    {
+      "tag": "holiday_camps",
+      "patterns": [
+        "Do you offer holiday camps?",
+        "Can my child join your holiday camps?",
+        "Tell me about your holiday camp program",
+        "What's included in your holiday camps?"
+      ],
+      "responses": [
+        "Yes, we offer holiday camps that provide fun and engaging martial arts training during school breaks.",
+        "Our holiday camp program includes a variety of activities and exercises to keep kids active and entertained."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in holiday camps? Our program provides fun and engaging martial arts training during school breaks."],
+        "enthusiasm": ["Our holiday camps include a variety of activities to keep kids active and entertained. It's perfect for school holidays."]
+      }
+    },
+    {
+      "tag": "birthday_parties",
+      "patterns": [
+        "Do you host birthday parties?",
+        "Can I have a birthday party at your club?",
+        "Tell me about your birthday party program",
+        "What's included in your birthday parties?"
+      ],
+      "responses": [
+        "Yes, we host birthday parties that include martial arts activities and fun games.",
+        "Our birthday party program provides a unique and exciting experience for kids and their friends."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in birthday parties? Our program includes martial arts activities and fun games."],
+        "enthusiasm": ["Our birthday parties provide a unique and exciting experience for kids and their friends. It's a memorable way to celebrate."]
+      }
+    },
+    {
+      "tag": "charity_events",
+      "patterns": [
+        "Do you host charity events?",
+        "Can I join your charity events?",
+        "Tell me about your charity events",
+        "What's included in your charity activities?"
+      ],
+      "responses": [
+        "Yes, we host charity events to support various causes and give back to the community.",
+        "Our charity events include martial arts demonstrations, workshops, and fundraising activities."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in charity events? Our activities support various causes and give back to the community."],
+        "enthusiasm": ["Our charity events include demonstrations, workshops, and fundraising activities. It's a great way to contribute."]
+      }
+    },
+    {
+      "tag": "private_lessons",
+      "patterns": [
+        "Do you offer private lessons?",
+        "Can I get one-on-one training at your club?",
+        "Tell me about your private lessons",
+        "What's included in your private training sessions?"
+      ],
+      "responses": [
+        "Yes, we offer private lessons that provide personalized training tailored to your goals.",
+        "Our private lessons include customized workouts and one-on-one instruction to help you improve."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in private lessons? Our sessions provide personalized training tailored to your goals."],
+        "enthusiasm": ["Our private lessons include customized workouts and one-on-one instruction. It's perfect for focused improvement."]
+      }
+    },
+    {
+      "tag": "seminars_workshops",
+      "patterns": [
+        "Do you host seminars and workshops?",
+        "Can I join your seminars and workshops?",
+        "Tell me about your seminars and workshops",
+        "What's included in your seminars and workshops?"
+      ],
+      "responses": [
+        "Yes, we host seminars and workshops that cover various aspects of martial arts training.",
+        "Our seminars and workshops include expert instruction, practical exercises, and Q&A sessions."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in seminars and workshops? Our events cover various aspects of martial arts training."],
+        "enthusiasm": ["Our seminars and workshops include expert instruction and practical exercises. It's a great way to deepen your knowledge."]
+      }
+    },
+    {
+      "tag": "self_improvement",
+      "patterns": [
+        "Do you offer self-improvement programs?",
+        "Can I improve myself with your classes?",
+        "Tell me about your self-improvement program",
+        "What's included in your self-improvement training?"
+      ],
+      "responses": [
+        "Yes, we offer self-improvement programs that focus on physical fitness, mental clarity, and personal growth.",
+        "Our self-improvement program includes a combination of martial arts training, mindfulness practices, and goal-setting sessions."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in self-improvement? Our program focuses on physical fitness, mental clarity, and personal growth."],
+        "enthusiasm": ["Our self-improvement training includes martial arts, mindfulness, and goal-setting. It's perfect for holistic growth."]
+      }
+    },
+    {
+      "tag": "online_classes",
+      "patterns": [
+        "Do you offer online classes?",
+        "Can I join your martial arts classes online?",
+        "Tell me about your online training program",
+        "What's included in your online classes?"
+      ],
+      "responses": [
+        "Yes, we offer online classes that provide flexible and convenient martial arts training.",
+        "Our online program includes live sessions, video tutorials, and virtual coaching."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in online classes? Our program provides flexible and convenient martial arts training."],
+        "enthusiasm": ["Our online classes include live sessions, video tutorials, and virtual coaching. It's perfect for remote learning."]
+      }
+    },
+    {
+      "tag": "virtual_training",
+      "patterns": [
+        "Do you offer virtual training?",
+        "Can I join your virtual martial arts classes?",
+        "Tell me about your virtual training program",
+        "What's included in your virtual training?"
+      ],
+      "responses": [
+        "Yes, we offer virtual training that allows you to train from the comfort of your home.",
+        "Our virtual training program includes interactive sessions, feedback, and support from our instructors."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in virtual training? Our program allows you to train from the comfort of your home."],
+        "enthusiasm": ["Our virtual training includes interactive sessions and support from our instructors. It's great for remote training."]
+      }
+    },
+    {
+      "tag": "self_motivation",
+      "patterns": [
+        "Do you offer self-motivation training?",
+        "Can I improve my self-motivation with your help?",
+        "Tell me about your self-motivation program",
+        "What's included in your self-motivation training?"
+      ],
+      "responses": [
+        "Yes, we offer self-motivation training to help you stay driven and focused on your goals.",
+        "Our self-motivation program includes techniques and exercises to boost your inner drive and perseverance."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in self-motivation training? Our program helps you stay driven and focused on your goals."],
+        "enthusiasm": ["Our self-motivation training includes techniques and exercises to boost your inner drive and perseverance."]
+      }
+    },
+    {
+      "tag": "discipline_training",
+      "patterns": [
+        "Do you offer discipline training?",
+        "Can I improve my discipline with your classes?",
+        "Tell me about your discipline program",
+        "What's included in your discipline training?"
+      ],
+      "responses": [
+        "Yes, we offer discipline training to help you develop self-control and consistency in your practice.",
+        "Our discipline program includes structured routines and exercises to build your self-discipline."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in discipline training? Our program helps you develop self-control and consistency in your practice."],
+        "enthusiasm": ["Our discipline training includes structured routines and exercises to build your self-discipline."]
+      }
+    },
+    {
+      "tag": "confidence_building",
+      "patterns": [
+        "Do you offer confidence-building training?",
+        "Can I improve my confidence with your classes?",
+        "Tell me about your confidence-building program",
+        "What's included in your confidence-building training?"
+      ],
+      "responses": [
+        "Yes, we offer confidence-building training to help you develop self-assurance and poise.",
+        "Our confidence-building program includes exercises and techniques to boost your self-confidence."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in confidence-building? Our program helps you develop self-assurance and poise."],
+        "enthusiasm": ["Our confidence-building training includes exercises and techniques to boost your self-confidence."]
+      }
+    },
+    {
+      "tag": "team_building",
+      "patterns": [
+        "Do you offer team-building activities?",
+        "Can I join your team-building programs?",
+        "Tell me about your team-building activities",
+        "What's included in your team-building training?"
+      ],
+      "responses": [
+        "Yes, we offer team-building activities to improve teamwork and collaboration.",
+        "Our team-building program includes exercises and activities designed to enhance group cohesion and communication."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in team-building? Our program improves teamwork and collaboration."],
+        "enthusiasm": ["Our team-building activities enhance group cohesion and communication. It's great for any team."]
+      }
+    },
+    {
+      "tag": "achievement_awards",
+      "patterns": [
+        "Do you offer achievement awards?",
+        "Can I earn awards with your training?",
+        "Tell me about your achievement awards program",
+        "What's included in your achievement awards?"
+      ],
+      "responses": [
+        "Yes, we offer achievement awards to recognize and celebrate your progress and accomplishments.",
+        "Our awards program includes various levels of recognition for different milestones and achievements."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in achievement awards? Our program recognizes and celebrates your progress and accomplishments."],
+        "enthusiasm": ["Our achievement awards include various levels of recognition for different milestones. It's a great way to stay motivated."]
+      }
+    },
+    {
+      "tag": "master_classes",
+      "patterns": [
+        "Do you offer master classes?",
+        "Can I join your master classes?",
+        "Tell me about your master classes",
+        "What's included in your master classes?"
+      ],
+      "responses": [
+        "Yes, we offer master classes that provide advanced training from expert instructors.",
+        "Our master classes include specialized techniques, advanced drills, and in-depth instruction."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in master classes? Our program provides advanced training from expert instructors."],
+        "enthusiasm": ["Our master classes include specialized techniques and advanced drills. It's perfect for advanced students."]
+      }
+    },
+    {
+      "tag": "fitness_challenges",
+      "patterns": [
+        "Do you offer fitness challenges?",
+        "Can I join your fitness challenges?",
+        "Tell me about your fitness challenges",
+        "What's included in your fitness challenges?"
+      ],
+      "responses": [
+        "Yes, we offer fitness challenges that provide fun and competitive ways to improve your fitness.",
+        "Our fitness challenges include various exercises and activities designed to push your limits and track your progress."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in fitness challenges? Our program provides fun and competitive ways to improve your fitness."],
+        "enthusiasm": ["Our fitness challenges include various exercises and activities designed to push your limits. It's a great way to stay motivated."]
+      }
+    },
+    {
+      "tag": "parent_child_classes",
+      "patterns": [
+        "Do you offer parent-child classes?",
+        "Can I join your parent-child martial arts classes?",
+        "Tell me about your parent-child program",
+        "What's included in your parent-child classes?"
+      ],
+      "responses": [
+        "Yes, we offer parent-child classes that provide a great way to bond and train together.",
+        "Our parent-child program includes fun and engaging activities suitable for all ages."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in parent-child classes? Our program provides a great way to bond and train together."],
+        "enthusiasm": ["Our parent-child classes include fun and engaging activities suitable for all ages. It's perfect for family bonding."]
+      }
+    },
+    {
+      "tag": "travel_workshops",
+      "patterns": [
+        "Do you offer travel workshops?",
+        "Can I join your travel workshops?",
+        "Tell me about your travel workshops",
+        "What's included in your travel workshops?"
+      ],
+      "responses": [
+        "Yes, we offer travel workshops that provide martial arts training in various locations.",
+        "Our travel workshops include intensive training sessions, cultural experiences, and sightseeing."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in travel workshops? Our program provides martial arts training in various locations."],
+        "enthusiasm": ["Our travel workshops include intensive training and cultural experiences. It's a great way to combine travel and training."]
+      }
+    },
+    {
+      "tag": "self_awareness",
+      "patterns": [
+        "Do you offer self-awareness training?",
+        "Can I improve my self-awareness with your classes?",
+        "Tell me about your self-awareness program",
+        "What's included in your self-awareness training?"
+      ],
+      "responses": [
+        "Yes, we offer self-awareness training that helps you understand your strengths and areas for improvement.",
+        "Our self-awareness program includes techniques to enhance mindfulness and self-reflection."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in self-awareness training? Our program helps you understand your strengths and areas for improvement."],
+        "enthusiasm": ["Our self-awareness training includes techniques to enhance mindfulness and self-reflection. It's great for personal growth."]
+      }
+    },
+    {
+      "tag": "personal_growth",
+      "patterns": [
+        "Do you offer personal growth programs?",
+        "Can I grow personally with your training?",
+        "Tell me about your personal growth program",
+        "What's included in your personal growth training?"
+      ],
+      "responses": [
+        "Yes, we offer personal growth programs that focus on developing your potential and achieving your goals.",
+        "Our personal growth program includes a combination of martial arts training, goal-setting, and self-reflection."
+      ],
+      "emotion_responses": {
+        "interest": ["Interested in personal growth? Our program focuses on developing your potential and achieving your goals."],
+        "enthusiasm": ["Our personal growth training includes martial arts, goal-setting, and self-reflection. It's perfect for holistic development."]
+      }
+    }
+  ]
+}
